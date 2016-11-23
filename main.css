@@ -1,0 +1,193 @@
+body{
+	height: 100%;
+}
+
+header{
+	text-align: center;
+	height: 100px;
+	background: url('logo.jpg') no-repeat left;
+}
+
+#title{
+	width: 450px;
+	color: #666;
+	line-height: 30px;
+	float: right;
+}
+
+.header_href:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+#searchText{
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	background: url("search.jpg") no-repeat right;
+	border-radius: 10px;
+	padding-right: 25px; 
+}
+
+/*header结束*/
+
+/*content开始*/
+content{
+	text-align: center;
+	position: absolute;
+	top:90px;
+	bottom:0;
+	height: 80%;
+	width: 100%;
+}
+
+#contentLeft,#contentRight{
+	width: 25%;
+	height: 100%;
+}
+
+#contentLeft{
+	float: left;
+	position: relative;
+	overflow: visible;
+	border:1px #bbbbbb solid;
+}
+
+#contentTab{
+	margin: 10px 0 0 10px;
+}
+
+#secondSource{
+	margin:0 0 20px 30px;
+}
+
+#secondSource li{
+	width: 100px;
+}
+
+#contentLeft li{
+	background-color: #f2f2f2;
+	border:1px #bbbbbb solid;
+	text-align: center;
+	line-height: 28px;
+	font-size: 12px;
+	font-family: 宋体;
+	height: 28px;
+	margin-right:3px;
+	float: left;
+	cursor: pointer;
+}
+
+#contentTab .firstMenu li{
+	width: 50px;
+}
+
+.firstMenu{
+	height: 30px;
+}
+
+#contentLeft .list_mouse{
+	background-color: #fff;
+	border-bottom : #fff; 
+}
+
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+/*contentLeft结束*/
+
+#contentMap{
+	width: 49%;
+	height: 100%;
+	display: inline-block;
+}
+
+#timeLine{
+	height: 60px;
+	margin: 20px 0;
+	border-bottom :dotted 2px orange;
+}
+
+#timeLine .timePoint{
+	display: inline-block;
+	height: 64px;
+	width: 9%;
+	line-height: 64px;
+	font-size: 18px;
+	color: #007bc4;
+	background : url("http://demo.lanrenzhijia.com/2014/time0824/images/biggerdot.png") no-repeat center bottom;
+	cursor: pointer;
+}
+
+#timeLine .select{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#mapContainer{
+
+}
+
+.amap-marker{
+	z-index: 100;!
+}
+
+/*contentMap结束*/
+#contentRight{
+	float: right;
+	border: solid 1px #bbb;
+}
+
+#picContainer{
+	height: 49%;
+	width: 100%;
+	border-bottom: solid 1px #bbb;
+	margin-bottom: 5px;
+}
+
+#resultList{
+	width: 95%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+}
+
+#resultList .listUl{
+	width: 90%;
+	margin:0 auto;
+	font-size: 18px;
+	text-align: left;
+	border: solid 1px grey;
+	border-radius: 20px;
+}
+
+#resultList .listUl h4{
+	text-align: center;
+	font-weight: bold;
+	line-height: 40px;
+	border-bottom: solid 1px #bbb;
+	border-radius: 20px; 
+	background-color: #f2f2f2;
+}
+
+#resultList .listUl p{
+	margin: 15px 5px 15px 5px;
+}
+
+#resultList .listUl a{
+	display: block;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	color: blue;
+	cursor: pointer;
+	border-top:solid 1px #bbb;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>国家科技报告服务系统</title>
+	<link rel="stylesheet" type="text/css" href="cssClear.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>
+		<div id="title">
+			<div id="titleLeft">
+				欢迎来到国家科技报告服务系统！ 
+				<a id="login" class="header_href">[登录]</a> 
+				<a id="register" class="header_href">[注册]</a>
+				<a id="collection" class="header_href">加入收藏</a> 
+				<a id="useHelp" class="header_href">使用帮助</a> 
+				<a id="forSuggestion" class="header_href">征求意见</a>
+			</div>
+			<input type="text" id="searchText" placeholder="请输入检索内容"></input>
+		</div>
+	</header>
+	
+	<content>
+		<div id="contentLeft">
+			<div id="contentTab">
+				<ul class="firstMenu">
+					<li class=" list_mouse" id="paperSource">按来源</li>
+					<li class="" id="paperSubject">按学科</li>
+					<li class="" id="paperArea">按地区</li>
+					<li class="" id="paperClass">按类型</li>
+				</ul><hr>
+				<ul id="secondSource">
+					<li class=" list_mouse">部门科技报告</li>
+					<li class="">地方科技报告</li>
+				</ul>
+			</div>
+			<div id="mapTree" ></div>
+		</div>
+		<div id="contentMap">
+			<ul id="timeLine">
+				<li class="timePoint">2007</li>
+				<li class="timePoint">2008</li>
+				<li class="timePoint">2009</li>
+				<li class="timePoint">2010</li>
+				<li class="timePoint">2011</li>
+				<li class="timePoint">2012</li>
+				<li class="timePoint">2013</li>
+				<li class="timePoint">2014</li>
+				<li class="timePoint">2015</li>
+				<li class="timePoint">2016</li>
+			</ul>			
+			<div id="mapContainer"></div>
+		</div>
+		<div id="contentRight">
+			<div id="picContainer">
+				
+			</div>
+
+			<div id="resultList">
+				<div class="listUl">
+					<h4>多模多频收发器关键IP硬核设计</h4>
+					<p>作者：石春琦；李琛；张润曦；胡少坚</p>
+					<a id="listUl0">detail>></a>
+				</div><br/><br/>
+				<div class="listUl">
+					<h4>多模多频收发器关键IP硬核设计</h4>
+					<p>作者：石春琦；李琛；张润曦；胡少坚</p>
+					<a id="listUl0">detail>></a>
+				</div><br/><br/>
+				<div class="listUl">
+					<h4>多模多频收发器关键IP硬核设计</h4>
+					<p>作者：石春琦；李琛；张润曦；胡少坚</p>
+					<a id="listUl0">detail>></a>
+				</div><br/><br/>
+			</div>
+
+		</div>
+	</content>
+
+	<footer>
+		
+	</footer>
+
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=4fb34be671dea1fbf77360659d603708"></script> 
+<!-- <script type="text/javascript" src="http://cache.amap.com/lbs/static/PlaceSearchRender.js"></script> -->
+<script type="text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="header.js"></script>
+<script type="text/javascript" src="content.js"></script>
+<script type="text/javascript" src="mapModel.js"></script>
+<script type="text/javascript" src="mapView.js"></script>
+<script type="text/javascript" src="mapControl.js"></script>
+</body>
+</html>
